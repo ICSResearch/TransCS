@@ -9,5 +9,5 @@ PyTorch 1.9.0
 torchvision 0.9.0  
 ****
 ## _Results_
-![image](https://github.com/myheuf/TransCS/blob/master/imgs/bird.png)
 ![image](https://github.com/myheuf/TransCS/blob/master/imgs/butterfly.png)
+![image](https://github.com/myheuf/TransCS/blob/master/imgs/bird.png)
