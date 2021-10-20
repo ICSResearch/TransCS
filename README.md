@@ -1,6 +1,6 @@
 # TransCS
 This repo is the pytorch code for paper "TransCS: A Transformer-based Hybrid Architecture for Image Compressed Sensing".  
-We built and tested with an Intel Xeon Silver 4210 CPU and a GeForce RTX 3090 GPU.
+We built and tested with an Intel Xeon Silver 4210 CPU and a GeForce RTX 3090 GPU.  
 The complete code will be put online soon.
 ****
 ## _Requirements_
