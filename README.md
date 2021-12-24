@@ -10,7 +10,7 @@ PyTorch 1.9.0
 torchvision 0.9.0  
 ****
 ## _Useage_
-1. File directory description:
+1. File directory description:  
   TransCS
   * dataset
     * rain
