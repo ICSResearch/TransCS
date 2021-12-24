@@ -11,16 +11,33 @@ torchvision 0.9.0
 ****
 ## _Useage_
 1. File directory description:  
->TransCS (Project name)  
-dataset
->>train  
-val  
-test  
->models  
-results  
-utils  
-eval.py  
-train.py
+```
+TransCS (Project name)  
+|-dataset
+|    |-train  
+|        |-BSDS500 (.jpg)  
+|    |-val  
+|        |-Set11 (.mat)  
+|    |-test  
+|        |-Set5 (.mat)  
+|        |-BSDS100 (.mat)  
+|        |-Urban100 (.mat)  
+|-models
+|    |-__init__.py  
+|    |-demo.py  
+|    |-module.py  
+|-results  
+|    |-4  
+|    |-10  
+|    |-25  
+|    |-... (sampling rates)
+|-utils 
+|    |-__init__.py  
+|    |-config.py  
+|    |-loader.py  
+|-eval.py  
+|-train.py
+```
 ****
 ## _Results_
 Image reconstruction results of the butterfly and bird images by various methods in the case of sampling rates τ = 4%.
