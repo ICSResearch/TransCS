@@ -39,7 +39,7 @@ TransCS (Project name)
 |-train.py
 ```
 ### 2. For testing the trained network of TransCS.  
-Before your test, please make sure you `have a GPU available` on your computer.  
+Before your test, we recommend you `have a GPU available` on your computer, since a large number of CPU based tests are time-consuming.  
 Then, for example, if you want to test TransCS at sampling rate τ = 10%, please run :  
 ```
 python eval.py --rate 0.1 --device 0
