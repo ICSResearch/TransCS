@@ -11,7 +11,7 @@ torchvision 0.9.0
 ****
 ## _Useage_
 1. File directory description:  
-    TransCS
+    >TransCS
     * dataset
         * rain
         * val
