@@ -72,5 +72,5 @@ Please refer to our paper for more results and comparisions.
 <div align=center><img width="800" height="240" src="https://github.com/myheuf/TransCS/blob/master/imgs/bird.png"/></div>  
 
 ****
-### END
+### _END_
 For any questions, feel free to contact us: shen65536@mail.nwpu.edu.cn
