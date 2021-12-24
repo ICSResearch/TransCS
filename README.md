@@ -59,7 +59,7 @@ Trained model loaded.
 ```
 ### 3. For re-training TransCS. 
 * Put the `BSDS500 (.jpg)` folder (including training set, validation set and test set) into `./dataset/train`.  
-* For example, if you want to train TranCS at τ = 10%, please run the following command. The BSDS500 will be automatically packaged and trained with default parameters (please ensure 24G video memory or more).
+* For example, if you want to train TranCS at τ = 10%, please run the following command. The BSDS500 will be automatically packaged and our TransCS will be trained with default parameters (please ensure 24G video memory or more).
 ```
 python train.py --rate 0.1 --device 0
 ```
