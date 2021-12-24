@@ -59,11 +59,10 @@ Trained model loaded.
 ```
 ### 3. For re-training TransCS. 
 * Put the `BSDS500 (.jpg)` folder (including training set, validation set and test set) into `./dataset/train`.  
-* For example, if you want to train TranCS at τ = 10%, please run 
+* For example, if you want to train TranCS at τ = 10%, please run the following command. The BSDS500 will be automatically packaged and trained with default parameters (please ensure 24G video memory or more).
 ```
 python train.py --rate --device 0
-``` 
-The BSDS500 will be automatically packaged and trained with default parameters (please ensure 24G video memory or more).
+```
 * Your re-trained models (.pth) will save in the `results folder`, it should contains `info.pth`, `model.pth`, `optimizer.pth` and `log.txt`, respectively represents the `result` in the training process (in order to start training from the breakpoint), `model parameters` and optimizer information, while log.txt saves the sampling and reconstruction `performance (PSNR, SSIM)` of the verification set after each training epoch.  
 ****
 ## _Results_
