@@ -11,7 +11,6 @@ torchvision 0.9.0
 ****
 ## _Useage_
 1. File directory description:  
-```
 >TransCS (Project name)
 >dataset
 >>rain
@@ -22,7 +21,6 @@ torchvision 0.9.0
 >utils
 >eval.py
 >train.py
-```
 ****
 ## _Results_
 Image reconstruction results of the butterfly and bird images by various methods in the case of sampling rates τ = 4%.
