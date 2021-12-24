@@ -12,7 +12,7 @@ torchvision 0.9.0
 ## _Useage_
 1. File directory description:  
 ```
-TransCS
+TransCS (Project name)
 * dataset
     * rain
     * val
