@@ -13,6 +13,6 @@ torchvision 0.9.0
 TBD.
 ****
 ## _Results_
-Image reconstruction results of the butterfly and bird images by various methods. The sampling rates τ of the first row and second row are 4% and 25%, respectively.
+Image reconstruction results of the butterfly and bird images by various methods in the case of sampling rates τ = 4%.
 ![image](https://github.com/myheuf/TransCS/blob/master/imgs/butterfly.png)
 ![image](https://github.com/myheuf/TransCS/blob/master/imgs/bird.png)
