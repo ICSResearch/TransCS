@@ -49,7 +49,7 @@ This is an example of the test results of dataset Set5 at sampling rate of 10% f
 ```
 Start evaluate...
 Trained model loaded.
-* ===================================  test dataset: ./dataset/test/SET5, device: cuda:0  =================================== *
+* ===================================  test dataset: ./dataset/test/SET5, device: cpu  =================================== *
 => process  1 done! time:  0.184s, PSNR: 35.07, SSIM: 0.9308, name: ./dataset/test/SET5/(1).mat
 => process  2 done! time:  0.152s, PSNR: 37.53, SSIM: 0.9684, name: ./dataset/test/SET5/(2).mat
 => process  3 done! time:  0.156s, PSNR: 29.72, SSIM: 0.9317, name: ./dataset/test/SET5/(3).mat
