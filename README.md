@@ -13,9 +13,9 @@ torchvision 0.9.0
 1. File directory description:  
 >TransCS (Project name)
 >dataset
->>rain
->>val
->>test
+>>train  
+val  
+test  
 >models
 >results
 >utils
