@@ -12,16 +12,16 @@ torchvision 0.9.0
 ## _Useage_
 1. File directory description:  
 ```
-TransCS (Project name)
-* dataset
-    * rain
-    * val
-    * test
-* models
-* results
-* utils
-* eval.py
-* train.py
+>TransCS (Project name)
+>dataset
+>>rain
+>>val
+>>test
+>models
+>results
+>utils
+>eval.py
+>train.py
 ```
 ****
 ## _Results_
