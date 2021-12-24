@@ -66,7 +66,7 @@ python train.py --rate --device 0
 * Your re-trained models (.pth) will save in the `results folder`, it should contains `info.pth`, `model.pth`, `optimizer.pth` and `log.txt`, respectively represents the `result` in the training process (in order to start training from the breakpoint), `model parameters` and optimizer information, while log.txt saves the sampling and reconstruction `performance (PSNR, SSIM)` of the verification set after each training epoch.  
 ****
 ## _Examples of Results_
-Partial visual comparisons of the `*butterfly*` and `*bird*` (from dataset Set5) reconstruction images by multiple methods at sampling rates τ = 4%.  
+Partial visual comparisons of the *`butterfly`* and *`bird`* (from dataset Set5) reconstruction images by multiple methods at sampling rates τ = 4%.  
 Please refer to our paper for more results and comparisions.  
 ![image](https://github.com/myheuf/TransCS/blob/master/imgs/butterfly.png)
 ![image](https://github.com/myheuf/TransCS/blob/master/imgs/bird.png)
