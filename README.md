@@ -42,6 +42,18 @@ Then, for example, if you want to test TransCS at sampling rate τ = 0.10, pleas
 python eval.py --rate 0.1 --device 0
 ```  
 For ease of use, this command will perform image sampling and reconstruction upon `all test datasets` at `one sampling rate`.  
+An example of running results are as follows:
+```
+Start evaluate...
+Trained model loaded.
+* ============  test dataset: ./dataset/test/SET5, device: cpu  ============== *
+=> process  1 done! PSNR: 35.07, SSIM: 0.9308, name: ./dataset/test/SET5/(1).mat
+=> process  2 done! PSNR: 37.53, SSIM: 0.9684, name: ./dataset/test/SET5/(2).mat
+=> process  3 done! PSNR: 29.72, SSIM: 0.9317, name: ./dataset/test/SET5/(3).mat
+=> process  4 done! PSNR: 33.32, SSIM: 0.8447, name: ./dataset/test/SET5/(4).mat
+=> process  5 done! PSNR: 32.16, SSIM: 0.9464, name: ./dataset/test/SET5/(5).mat
+=> All the  5 images done!, your AVG PSNR: 33.56, AVG SSIM: 0.9244
+```
 ### 3. For re-training TransCS. 
 Put the `BSDS500 (.jpg)` folder (including training set, validation set and test set) into `./dataset/train`.  
 For example, if you want to train TranCS at τ = 10%, please run the following command. The BSDS500 will be automatically packaged and our TransCS will be trained with default parameters (please ensure 24G memory or more).
