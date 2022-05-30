@@ -2,13 +2,13 @@
 This repository is the `pytorch` code for our paper `"TransCS: A Transformer-based Hybrid Architecture for Image Compressed Sensing"`.  
 We built and tested our code with an Intel Xeon Silver 4210 CPU and a GeForce RTX 3090 GPU.  
 The complete code will be put online soon.
-****
+
 ## _Requirements_
 Python 3.9  
 CUDA 11.1  
 PyTorch 1.9.0  
 torchvision 0.9.0  
-****
+
 ## _Useage_
 ### 1. Directory description:  
 ```
@@ -45,7 +45,6 @@ Then, for example, if you want to test TransCS at sampling rate τ = 10%, please
 python eval.py --rate 0.1 --device 0
 ```  
 For ease of use, this command will perform image sampling and reconstruction upon `all test datasets` at `one sampling rate`.  
-```
 ### 3. For re-training TransCS. 
 * Put the `BSDS500 (.jpg)` folder (including training set, validation set and test set) into `./dataset/train`.  
 * For example, if you want to train TranCS at τ = 10%, please run the following command. The BSDS500 will be automatically packaged and our TransCS will be trained with default parameters (please ensure 24G video memory or more).
@@ -60,6 +59,5 @@ Please refer to our paper for more results and comparisions.
 <div align=center><img width="800" height="240" src="https://github.com/myheuf/TransCS/blob/master/imgs/butterfly.png"/></div>  
 <div align=center><img width="800" height="240" src="https://github.com/myheuf/TransCS/blob/master/imgs/bird.png"/></div>  
 
-****
 ### _END_
 For any questions, feel free to contact us: shen65536@mail.nwpu.edu.cn
