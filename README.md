@@ -56,7 +56,7 @@ python train.py --rate 0.1 --device 0
 ## _Examples of Results_
 Partial visual comparisons of the *`butterfly`* and *`bird`* (from dataset Set5) reconstruction images by multiple methods at sampling rates τ = 4%.  
 Please refer to our paper for more results and comparisions.  
-<div align=center><img width="800" height="240" src="https://github.com/myheuf/TransCS/blob/master/imgs/demo.png"/></div>  
+<div align=center><img width="600" height="350" src="https://github.com/myheuf/TransCS/blob/master/imgs/demo.png"/></div>  
 
 ### _END_
 For any questions, feel free to contact us: shen65536@mail.nwpu.edu.cn
