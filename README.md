@@ -46,7 +46,7 @@ An example of running results are as follows:
 ```
 Start evaluate...
 Trained model loaded.
-* ============  test dataset: ./dataset/test/SET5, device: cpu  ============== *
+* ============  test dataset: ./dataset/test/SET5, device: cuda:0 ============= *
 => process  1 done! PSNR: 35.07, SSIM: 0.9308, name: ./dataset/test/SET5/(1).mat
 => process  2 done! PSNR: 37.53, SSIM: 0.9684, name: ./dataset/test/SET5/(2).mat
 => process  3 done! PSNR: 29.72, SSIM: 0.9317, name: ./dataset/test/SET5/(3).mat
