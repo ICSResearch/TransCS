@@ -95,19 +95,13 @@ def res(config, net, save_img):
 
                 temp = torch.zeros(num_patches, batch_size, config.channel, config.block_size, config.block_size)
                 count = 0
-                use_time = []
                 for a in idx_h:
                     for b in idx_w:
 
                         ori = x[:, :, a:a + config.block_size, b:b + config.block_size].to(config.device)
-                        # noise = (0.004 ** 0.5) * torch.randn(1, 1, config.block_size, config.block_size).to(config.device)
-                        # x_noise = ori + noise
-                        start_time = time.time()
                         output = net(ori)
-                        end_time = time.time()
                         temp[count, :, :, :, :, ] = output
                         count = count + 1
-                        use_time.append(end_time - start_time)
 
                 y = torch.zeros(batch_size, config.channel, h, w)
                 count = 0
@@ -129,8 +123,8 @@ def res(config, net, save_img):
                 ssim = SSIM(recon_x.numpy(), ori_x.numpy(), data_range=1)
                 s_total = s_total + ssim
 
-                print("\r=> process {:2} done! time: {:6.3f}s, PSNR: {:5.2f}, SSIM: {:5.4f}, name: {}"
-                      .format(i + 1, end_time - start_time, p, ssim, name))
+                print("\r=> process {:2} done! PSNR: {:5.2f}, SSIM: {:5.4f}, name: {}"
+                      .format(i + 1, p, ssim, name))
 
                 if save_img:
                     img_path = "./results/image/{}/".format(int(config.ratio * 100))
