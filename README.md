@@ -1,10 +1,5 @@
 # TransCS
-This repository is the `pytorch` code for our paper `"TransCS: A Transformer-based Hybrid Architecture for Image Compressed Sensing"`.  
-We built and tested our code with an Intel Xeon Silver 4210 CPU and a GeForce RTX 3090 GPU.  
-
-## Datasets and Environments
-Training dataset: `BSDS500`, validation dataset: `Set11`, testing datasets: `Set5`, `BSD100` and `Urban100`.  
-Runtime environment: `Python 3.9`, `CUDA 11.1`, `PyTorch 1.9.0`, `torchvision 0.9.0`.  
+TBD.
 
 ## Useage
 ### 1. Directory description:  
@@ -65,7 +60,4 @@ Your re-trained models (.pth) will be saved in the `results folder`, it should c
 ## Examples of Results
 Partial visual comparisons of reconstructed images by multiple methods at sampling rates τ = 0.04 and 0.25.  
 Please refer to our paper for more results and comparisions.  
-<div align=center><img width="600" height="350" src="https://github.com/myheuf/TransCS/blob/master/imgs/demo.png"/></div>  
-
-### END
-For any questions, feel free to contact us: shen65536@mail.nwpu.edu.cn
+<div align=center><img width="600" height="350" src="https://github.com/myheuf/TransCS/blob/master/imgs/demo.png"/></div>
