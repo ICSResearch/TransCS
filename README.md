@@ -1,5 +1,5 @@
 # TransCS
-TBD.
+update soon.
 
 ## Useage
 ### 1. Directory description:  
