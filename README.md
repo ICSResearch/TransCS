@@ -74,3 +74,6 @@ Your re-trained models (.pth) will be saved in the `results folder`, it should c
 Partial visual comparisons of reconstructed images by multiple methods at sampling rates τ = 0.04 and 0.25.  
 Please refer to our paper for more results and comparisions.  
 <div align=center><img width="600" height="350" src="https://github.com/myheuf/TransCS/blob/master/imgs/demo.png"/></div>
+
+# END
+Welcome to contace us for any questions: shen65536@mail.nwpu.edu.cn
