@@ -1,6 +1,6 @@
 # TransCS
 This repository is the pytorch-based implementation of the model proposed by the paper [**TransCS: A Transformer-Based Hybrid Architecture for Image Compressed Sensing**](https://ieeexplore.ieee.org/document/9934025) which is published in **IEEE Transactions on Image Processing** in 2022.
-sssssss
+ssssssss
 If you use this code, welcome to cite our paper.
 ```
 @ARTICLE{9934025,
